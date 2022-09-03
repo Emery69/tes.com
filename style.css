@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'montserrat';
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: block;
+    position: fixed;
+}
+
+.midheader {
+    width: 80%;
+    height: 100%;
+    display: block;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.header-logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.header-logo h1 {
+    color: black;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'montserrat';
+    font-size: 30x;
+    font-weight: 100;
+}
+
+.header-logo h1:hover {
+    cursor: pointer;
+}
+
+.header-logo h1 span {
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'montserrat';
+}
+
+.header-logo h1 span:hover {
+    cursor: pointer;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    float: left;
+    display: table;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    padding: 15px 5px;
+    display: table-cell;
+    height: 100%;
+    color: black;
+    font-family: 'montserrat';
+    font-size: 16px;
+    
+}
+
+main {
+    padding: 100px 80px;
+    overflow: auto;
+}
+
+.Gtitle {
+    width: 100%;
+}
+
+.Gtitle h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: 'montserrat';
+}
+
+.Gtitle h2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'montserrat';
+}
+
+.AboutP {
+    padding: 160px 80px;
+}
+
+.AboutP p span {
+    font-family: 'montserrat';
+    font-weight: 900;
+}
+
+.AboutP p {
+    font-family: 'montserrat';
+    color: white;
+}
+
+.ProductsTitle {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Line {
+    height: 100px;
+    color: none;
+    border: none;
+}
+
+.content {
+    width: 95%;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 20px;
+}
+
+.card h3 {
+    font-weight: bold;
+    font-family: 'montserrat';
+    text-align: center;
+    
+}
+
+.featured-image {
+    width: 100%;
+}
+
+
+.navigation li:hover {
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.card p {
+    font-family: 'montserrat';
+    text-align: center;
+}
+
+.img2 {
+    height: 260px;
+    width: 100%;
+    
+}
+
+
+
+.content2 {
+    float: left;;
+}
+
+.content1 {
+    float: left;
+}
+
+#JA {
+    height: 365px;
+}
